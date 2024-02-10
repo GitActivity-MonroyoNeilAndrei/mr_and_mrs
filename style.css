@@ -1,0 +1,75 @@
+.main-title {
+  color: blue;
+  text-align: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.candidate-card {
+  background-color: rgba(5, 5, 73, 0.948);
+  width: 20rem;
+  height: 28rem;
+  padding: 25px;
+  border-radius: 10px;
+  margin: 0 auto;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.img-candidate {
+  width: 20rem;
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid rgb(207, 192, 34);
+}
+
+.candidate-name,
+.candidate-year-section {
+  color: rgb(214, 214, 214);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 10px;
+}
+
+.candidate-name {
+}
+
+.candidate-year-section {
+  font-style: italic;
+  font-weight: 100;
+}
+
+
+
+ /* Carousel */
+
+ .carousel {
+  width: 23.0rem;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+.carousel-images {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.carousel-image {
+  width: 300px;
+  flex: 0 0 auto;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+.prev {
+  left: 10px;
+}
+.next {
+  right: 10px;
+}
